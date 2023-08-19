@@ -7,21 +7,23 @@
   </head>
   <body>
     <form action="https://formspree.io/f/mjvqyrjj" method="POST">
-      <label for="username">Imię:</label><br />
-      <input type="text" name="username" /><br />
+      <label for="name">Imię:</label><br />
+      <input type="text" name="name" id="name" /><br />
       <label for="surname">Nazwisko:</label><br />
-      <input type="text" name="username" /><br /><br />
+      <input type="text" name="surname" id="surname" /><br /><br />
       <input
         type="email"
         name="email"
+        id="email"
         placeholder="Podaj adres e-mail"
       /><br /><br />
       <input
         type="number"
         name="quantity"
+        id="quantity"
         placeholder="Podaj nr telefonu"
       /><br /><br />
-      <textarea name="Wiadomość"></textarea><br /><br />
+      <textarea name="message" id="message"></textarea><br /><br />
       <input type="submit" value="Wyślij" /><br />
     </form>
   </body>
